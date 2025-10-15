@@ -62,7 +62,7 @@ jobs:
         with:
           push: true
           tags: app01demo.azurecr.io/${{ env.REPO }}:${{ github.sha }}
-          file: ./WebApplication02/Dockerfile
+          file: ./Dockerfile
 
   # deploy:
   #   permissions:
